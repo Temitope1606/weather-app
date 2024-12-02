@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: calibri;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+/* header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+} */
+
+#container input {
+  max-width: 250px;
+  padding: 10px 15px;
+  border-radius: 0px 10px 0px 10px;
+  border: none;
+  background-color: rgb(219, 217, 217);
+  font-size: 1.3em;
+  outline: none;
+  box-shadow: 0 0 5px #727171;
+}
+
+#container button {
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.8em;
+  background-color: rgb(52, 108, 180);
+}
+
+#container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(83, 83, 240, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(94, 93, 93);
+  margin-top: 65px;
+}
+
+#container h1 {
+  font-size: 2em;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+#weather-details {
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+#weather-details .city-name {
+  font-size: 2em;
+}
+
+#weather-details .temperature {
+  padding: 50px;
+  font-size: 4em;
+  text-shadow: 1px 4px #000;
+}
+
+#weather-details .temp-range {
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    height: 100vh;
+  }
+}
